@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block pagecontent %}
+<div class = "container">
+<table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Rank</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for user in users %}
+      <tr>
+        <td>{{ user.name }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.rank }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+{% endblock %}
+
+{% block scripts %}{% endblock %}

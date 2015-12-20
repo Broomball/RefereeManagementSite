@@ -1,0 +1,19 @@
+<h4>Information for {{ date }}</h4>
+<hr />
+<div class="panel">
+    <div class="panel-heading">
+        Games
+    </div>
+    <table class="table">
+        <tr>
+            <th>Time</th>
+            <th>Referees</th>
+        </tr>
+        {% for game in games %}
+        <tr>
+            <td>{{ game[0] }}</td>
+            <td>{{ game[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

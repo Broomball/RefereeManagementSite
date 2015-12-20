@@ -1,0 +1,43 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.range-calendar.dark-calendar {
+	padding: 2em;
+	border-radius: 15px;
+    width:94%;
+}
+
+#dayinfo {
+	margin-top: 1em;
+}
+
+
+.cell.selected .range-bar.resizable {
+    border-radius: 5px;
+}
+
+.month-cell.cell.selected {
+    border-radius: 5px;
+}
+
+.navbar-default.base-nav {
+    background-image: linear-gradient(to bottom, #FFCE00 0px, #E6B900 100%);
+}
+
+.username {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+

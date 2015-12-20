@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block pagecontent %}
+
+<div class="row">
+   <div class="jumbotron">
+      <h1>Broomball Schedule</h1>
+        <p>Below is the referee schedule for the next few weeks. To administrate or view/edit your own schedule, please log in.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div id="index-calendar" class="center-block dark-calendar">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-10 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+    <div id="dayinfo" class="well">
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}<script src="static/js/index.js"></script>{% endblock %}
